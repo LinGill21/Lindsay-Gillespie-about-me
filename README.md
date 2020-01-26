@@ -23,5 +23,10 @@ The main language for github pages is [markdown]("https://help.github.com/en/git
 * If you want to know more aout an area of Web Development I recommend [Skill_Crush]("https://skillcrush.com/2018/05/25/how-to-become-a-web-developer/")
 * A good overall Web Devlopment language helper is [w3schools]("https://www.w3schools.com/")
 
+## Contributors
+Lindsay Gillespie - BS Computer Science
+
+![vscode image](https://github.com/LinGill21/Lindsay-Gillespie-about-me/raw/master/mePic.PNG "pictureofMe")
+
 
 
