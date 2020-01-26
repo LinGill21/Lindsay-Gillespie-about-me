@@ -18,4 +18,10 @@ The main tool for publishing a github page is [Github]("https://github.com") and
 
 The main language for github pages is [markdown]("https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax")
 
+## Recommended Resources
+* If you are new to Web Devlopment and programming I recommend [Coder_Coder]("https://coder-coder.com/learn-web-development/") to get started
+* If you want to know more aout an area of Web Development I recommend [Skill_Crush]("https://skillcrush.com/2018/05/25/how-to-become-a-web-developer/")
+* A good overall Web Devlopment language helper is [w3schools]("https://www.w3schools.com/")
+
+
 
