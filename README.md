@@ -1,8 +1,8 @@
 # Lindsay-Gillespie-about-me
 ## Repository Links
-* https://github.com/LinGill21/Lindsay-Gillespie-about-me
+* [repo](https://github.com/LinGill21/Lindsay-Gillespie-about-me)
 
-* https://lingill21.github.io/Lindsay-Gillespie-about-me/
+* [site](https://lingill21.github.io/Lindsay-Gillespie-about-me/)
 
 ## About
 This repository is an about me for 44 - 563 -03. Where I will use web site creation techniques I learned in class. To create a web
