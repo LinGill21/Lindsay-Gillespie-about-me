@@ -34,7 +34,9 @@ to get started
 ## Contributors
 Lindsay Gillespie - BS Computer Science
 
-![vscode image](https://github.com/LinGill21/Lindsay-Gillespie-about-me/raw/master/mePic.PNG "pictureofMe")
+![vscode image](https://github.com/LinGill21/Lindsay-Gillespie-about-me/raw/master/Falcom.PNG "gamepicture")
+
+This picture is a picture of falcoms games. The picture is from their website.
 
 
 
