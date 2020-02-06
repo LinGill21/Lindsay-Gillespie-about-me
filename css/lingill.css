@@ -1,0 +1,17 @@
+body {
+    background-color:coral;
+    padding-top: 5 rem;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h2{
+      color: darkmagenta;
+      text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
