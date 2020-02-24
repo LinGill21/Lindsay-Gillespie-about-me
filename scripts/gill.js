@@ -8,19 +8,19 @@ window.addEventListener('load', (event) => {
     // if (localStorage.getItem('name')) {
     //     document.querySelector('#fname').value = localStorage.getItem('name')
     // }
-    document.getElementById("fname").innerHTML = localStorage.getItem("name"); 
+    document.querySelector("#fname").innerHTML = localStorage.getItem('name'); 
+    localStorage.setItem('name', inputName);
 })
   
 //gerneral call to functions and returning
 btnCombine.onclick = function(){
     const name =inputName.value;
-    localStorage.setItem('name', name);
     console.log(name);
     const food =inputFood.value;
     var foodlower =food.toLowerCase();
     console.log(food);
     const animal=inputAnimal.value;
     var animallower = animal.toLowerCase()
-    mergeHold.innerHTML = name + " your new favorite animal is "+ foodlower+animallower;
+    mergeHold.innerHTML = localStorage.getItem('name')+ " your new favorite animal is "+ foodlower+animallower;
 }
 //https://www.w3schools.com/jsref/jsref_tolowercase.asp for lowercase the second input
