@@ -4,11 +4,17 @@ const inputAnimal =document.querySelector("#animal")
 const btnCombine = document.getElementById("combine")
 const mergeHold = document.getElementById("merg")
 
+window.addEventListener('load', (event) => {
+    // if (localStorage.getItem('name')) {
+    //     document.querySelector('#fname').value = localStorage.getItem('name')
+    // }
+    document.getElementById("fname").innerHTML = localStorage.getItem("name"); 
+})
   
 //gerneral call to functions and returning
 btnCombine.onclick = function(){
-    console.log('INFO: Declaring functions');
     const name =inputName.value;
+    localStorage.setItem('name', name);
     console.log(name);
     const food =inputFood.value;
     var foodlower =food.toLowerCase();
