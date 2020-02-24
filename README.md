@@ -7,6 +7,7 @@
 ## About
 This repository is an about me for 44 - 563 -03. Where I will use web site creation techniques I learned in class. To create a web
 page to share information about me.
+Have added on Javascript function to get a person favorite animal and food and combine
 
 ## Recommended Tools
 To publish a github page
