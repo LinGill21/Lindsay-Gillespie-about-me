@@ -9,7 +9,7 @@ window.addEventListener('load', (event) => {
     //     document.querySelector('#fname').value = localStorage.getItem('name')
     // }
     document.querySelector("#fname").innerHTML = localStorage.getItem('name'); 
-    localStorage.setItem('name', inputName);
+    //localStorage.setItem('name', inputName);
 })
   
 //gerneral call to functions and returning
@@ -21,6 +21,7 @@ btnCombine.onclick = function(){
     console.log(food);
     const animal=inputAnimal.value;
     var animallower = animal.toLowerCase()
-    mergeHold.innerHTML = localStorage.getItem('name')+ " your new favorite animal is "+ foodlower+animallower;
+    mergeHold.innerHTML = name + " your new favorite animal is "+ foodlower+animallower;
+    localStorage.setItem('name',name)
 }
 //https://www.w3schools.com/jsref/jsref_tolowercase.asp for lowercase the second input
