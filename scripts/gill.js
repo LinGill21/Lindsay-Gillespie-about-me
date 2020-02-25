@@ -3,13 +3,12 @@ const inputFood =document.querySelector("#food")
 const inputAnimal =document.querySelector("#animal")
 const btnCombine = document.getElementById("combine")
 const mergeHold = document.getElementById("merg")
+const btnNews = document.getElementById("newsSpot")
+const newHold = document.getElementById("News")
 
+const newsURL ='https://newsapiraygorodskijv1.p.rapidapi.com/getArticles'
 window.addEventListener('load', (event) => {
-    // if (localStorage.getItem('name')) {
-    //     document.querySelector('#fname').value = localStorage.getItem('name')
-    // }
     document.querySelector("#fname").innerHTML = localStorage.getItem('name'); 
-    //localStorage.setItem('name', inputName);
 })
   
 //gerneral call to functions and returning
@@ -25,3 +24,5 @@ btnCombine.onclick = function(){
     localStorage.setItem('name',name)
 }
 //https://www.w3schools.com/jsref/jsref_tolowercase.asp for lowercase the second input
+
+
