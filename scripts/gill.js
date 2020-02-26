@@ -27,16 +27,22 @@ btnCombine.onclick = function(){
     var animallower = animal.toLowerCase()
     mergeHold.innerHTML = name + " your new favorite animal is "+ foodlower+animallower;
     localStorage.setItem('name',name)
-    salCal(numhour,numwage,name)
+    const paymonth =salCal(numhour,numwage)
+    if (paymonth==0){
+        payHold.innerHTML = name + " you have entered an incorrect number";
+    }
+    else{
+        payHold.innerHTML = name + " your pay is "+ paymonth;
+    }
 }
-const salCal = async function( h, w,n)
+const salCal = async function( h, w)
 {
     console.log(h,w)
     if(h<0 || w <0){
-    payHold.innerHTML = n +" you have entered an invaild number please try again";
+    return 0
     }
     else{
-    payHold.innerHTML = n +" your pay is "+ (h * w);
+    return (h * w);
     }
 
 }

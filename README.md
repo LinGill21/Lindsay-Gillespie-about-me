@@ -10,6 +10,9 @@ page to share information about me.
 Have added on Javascript function to get a person favorite animal and food and combine
 Ajax is on index
 local storage is on getting to know you
+## Resources
+I used the class examples, https://sv443.net/jokeapi/v2 docs and asked for help.
+If I missed something I cited it in the code
 
 ## Recommended Tools
 To publish a github page
