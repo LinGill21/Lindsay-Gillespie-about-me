@@ -1,10 +1,11 @@
 const inputName = document.querySelector("#fname")
 const inputFood =document.querySelector("#food")
 const inputAnimal =document.querySelector("#animal")
+const inputHours = document.querySelector("#hour")
+const inputWage= document.querySelector("#wage")
 const btnCombine = document.getElementById("combine")
 const mergeHold = document.getElementById("merg")
-const btnNews = document.getElementById("newsSpot")
-const newHold = document.getElementById("News")
+const payHold = document.getElementById("pay")
 
 const newsURL ='https://newsapiraygorodskijv1.p.rapidapi.com/getArticles'
 window.addEventListener('load', (event) => {
@@ -13,15 +14,31 @@ window.addEventListener('load', (event) => {
   
 //gerneral call to functions and returning
 btnCombine.onclick = function(){
+    const strhour = inputHours.value;
+    const numhour = parseFloat(strhour);
+    const strwage = inputWage.value;
+    const numwage = parseFloat(strwage);
     const name =inputName.value;
-    console.log(name);
+    //food
     const food =inputFood.value;
     var foodlower =food.toLowerCase();
-    console.log(food);
+    //animal
     const animal=inputAnimal.value;
     var animallower = animal.toLowerCase()
     mergeHold.innerHTML = name + " your new favorite animal is "+ foodlower+animallower;
     localStorage.setItem('name',name)
+    salCal(numhour,numwage,name)
+}
+const salCal = async function( h, w,n)
+{
+    console.log(h,w)
+    if(h<0 || w <0){
+    payHold.innerHTML = n +" you have entered an invaild number please try again";
+    }
+    else{
+    payHold.innerHTML = n +" your pay is "+ (h * w);
+    }
+
 }
 //https://www.w3schools.com/jsref/jsref_tolowercase.asp for lowercase the second input
 
