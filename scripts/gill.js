@@ -15,12 +15,12 @@ const  salCal = function (numhour, wage)
 {
     console.log(numhour,wage)
     if(numhour<0 || wage <0){
-    return 0
+    return 0;
     }
     else{
     return (numhour * wage);
     }
-
+    
 }
   
 //gerneral call to functions and returning
