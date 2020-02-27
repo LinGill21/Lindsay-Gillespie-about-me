@@ -11,6 +11,17 @@ const newsURL ='https://newsapiraygorodskijv1.p.rapidapi.com/getArticles'
 window.addEventListener('load', (event) => {
     document.querySelector("#fname").innerHTML = localStorage.getItem('name'); 
 })
+const  salCal = function (numhour, wage)
+{
+    console.log(numhour,wage)
+    if(numhour<0 || wage <0){
+    return 0
+    }
+    else{
+    return (numhour * wage);
+    }
+
+}
   
 //gerneral call to functions and returning
 btnCombine.onclick = function(){
@@ -35,17 +46,7 @@ btnCombine.onclick = function(){
         payHold.innerHTML = name + " your pay is "+ paymonth;
     }
 }
-const salCal = async function( h, w)
-{
-    console.log(h,w)
-    if(h<0 || w <0){
-    return 0
-    }
-    else{
-    return (h * w);
-    }
 
-}
 //https://www.w3schools.com/jsref/jsref_tolowercase.asp for lowercase the second input
 
 
