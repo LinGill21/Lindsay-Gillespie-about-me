@@ -13,6 +13,7 @@ local storage is on getting to know you
 ## Resources
 I used the class examples, https://sv443.net/jokeapi/v2 docs and asked for help.
 If I missed something I cited it in the code
+I used https://www.w3schools.com/bootstrap/bootstrap_navbar.asp to create a nav bar
 
 ## Recommended Tools
 To publish a github page

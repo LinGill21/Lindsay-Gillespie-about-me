@@ -3,17 +3,29 @@
     <head> 
         <meta charset="UTF-8" />
         <title>Contact Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href ="css/lingill.css">
     </head> 
     <body>    
-            <main id="container">
-            <nav>
-                <ul>
-                    <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/">Home</a></li>
-                    <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/contact">Contact</a></li>
-                    <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/gettingToKnowYou.html">About You</a></li>
-                </ul>
-                </nav>
+                  <!--from https://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand">Lindsay-Gillespie-about-me</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/">Home</a></li>
+                <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/contact">Contact</a></li>
+                <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/gettingToKnowYou.html">About You</a></li>
+                
+            </ul>
+            </div>
+        </nav>
+        <div id="container">
+        <main>
             <form action="">
             <p>Enter your last name and email</p>
             Last Name: <input type="text" name="fname"><br>
@@ -22,7 +34,8 @@
                   </form> 
 
             </main> 
-            <hr id="bar"/> 
+            <hr id="bar"/>
+        </div> 
         <footer>
             <p>Created by Lindsay Gillespie on 2/4/20</p>
         </footer>  

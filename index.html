@@ -4,20 +4,32 @@
     <head> 
         <meta charset="UTF-8" />
         <title>Lindsay's About Me</title>
+        <!-- links from https://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href ="css/lingill.css">
     </head> 
     <body>  
         <header class ="topper">Getting to know Lindsay Gillespie <img class=circle src= "mePic.PNG" alt="pictureofme" height="75"></header>
-        <nav>
-            <ul>
+        <!--from https://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand">Lindsay-Gillespie-about-me</a>
+              </div>
+              <ul class="nav navbar-nav">
                 <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/">Home</a></li>
                 <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/contact">Contact</a></li>
                 <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/gettingToKnowYou.html">About You</a></li>
-                <li>Lindsay-Gillespie-about-me</li>
+                <li><a href="https://lingill21.github.io/Lindsay-Gillespie-about-me/scripts/qunit.html">Qtest</a></li>
             </ul>
+            </div>
         </nav>
+        <div class="container">
         <hr id="bar"/>  
-            <main id="container">
+            <main>
                 <article>
                     <h2>About me</h1>
                     <section><p> I am a junior working on a bachelor of science in Computer Science with just a general emphasis.<br>
@@ -88,6 +100,7 @@
             </main> 
             <script src="scripts/fetchnews.js"></script>
             <hr id="bar"/> 
+        </div>
         <footer>
             <p>Created by Lindsay Gillespie on 2/4/20</p>
         </footer> 
